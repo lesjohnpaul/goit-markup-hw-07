@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEBSTUDIO</title>
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container header-container">
+      <nav class="main-header-nav">
+        <!-- Nav bar -->
+        <a href="/goit-markup-hw-05/index.html" class="nav-logo">
+          <span class="logo-web">WEB</span>STUDIO
+        </a>
+
+        <ul class="main-header-menu">
+          <li class="main-header-menu-item">
+            <a class="main-header-menu-link" href="/goit-markup-hw-05/index.html">Studio</a>
+          </li>
+          <li class="main-header-menu-item">
+            <a class="main-header-menu-link active" href="/goit-markup-hw-05/portfolio.html">Portfolio</a>
+          </li>
+          <li class="main-header-menu-item">
+            <a class="main-header-menu-link" href="/goit-markup-hw-05/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="main-header-address">
+        <a class="main-header-menu-tel-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="main-header-menu-num-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+      </address>
+    </div>
+  </header>
+  <main class="porfolio-main">
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="portfolio-title" hidden>Our Services and Products</h2>
+        <ul class="filter-list">
+          <li class="filter-list-item">
+            <button id="all" class="portfolio-filter-button active" type="button">
+              All
+            </button>
+          </li>
+          <li class="filter-list-item">
+            <button id="website" class="portfolio-filter-button" type="button">
+              Web Site
+            </button>
+          </li>
+          <li>
+            <button id="app" class="portfolio-filter-button" type="button">
+              App
+            </button>
+          </li>
+          <li class="filter-list-item">
+            <button id="design" class="portfolio-filter-button" type="button">
+              Design
+            </button>
+          </li>
+          <li class="filter-list-item">
+            <button id="marketing" class="portfolio-filter-button" type="button">
+              Marketing
+            </button>
+          </li>
+        </ul>
+
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img src="images/banking-app-ui.jpg" alt="Bank App UI mockups with purple color family" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App ·
+                Cloud Storage App
+              </figcaption>
+            </figure>
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Banking App Interface Concept</h3>
+              <p class="portfolio-type" data-category="App">App</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/cashless-payment.jpg"
+                alt="a phone scanning QR code to make a transaction" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App ·
+                Cloud Storage App
+              </figcaption>
+            </figure>
+
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Cashless Payment</h3>
+              <p class="portfolio-type" data-category="Marketing">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/meditation-app.jpg"
+                alt="Laptop and Phone Screen mockup with 'return to normalcy' text on it" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App ·
+                Cloud Storage App
+              </figcaption>
+            </figure>
+
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Meditation App</h3>
+              <p class="portfolio-type" data-category="App">App</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/taxi-service.jpg"
+                alt="Car's turning wheel with a phone holder hanging on the leftside frontview of the driver" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App ·
+                Cloud Storage App
+              </figcaption>
+            </figure>
+
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Taxi Service</h3>
+              <p class="portfolio-type" data-category="Marketing">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/screen-illustrations.jpg"
+                alt="Moon light design graphics on a phone screen mockups" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App · Cloud Storage App
+              </figcaption>
+            </figure>
+
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Screen Illustrations</h3>
+              <p class="portfolio-type" data-category="Design">Design</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/online-courses.jpg"
+                alt="A happy woman wearing her clear eyeglasses, gray bonnet and orange knitted clothes holding her phone and right pair of her wired earphones" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App · Cloud Storage App
+              </figcaption>
+            </figure>
+
+
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Online Courses</h3>
+              <p class="portfolio-type" data-category="Marketing">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/insta-stories-concept.jpg"
+                alt="A website design for social media content" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App · Cloud Storage App
+              </figcaption>
+            </figure>
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Instagram Stories Concept</h3>
+              <p class="portfolio-type" data-category="Design">Design</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/organic-food.jpg"
+                alt="Woman carrying fruits and Green leafy vegtables on a plastic bag" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App · Cloud Storage App
+              </figcaption>
+            </figure>
+
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Organic Food</h3>
+              <p class="portfolio-type" data-category="Web Site">Web Site</p>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <figure class="porfolio-figure">
+              <img class="portfolio-item-image" src="images/fresh-coffee.jpg"
+                alt="Barista pouring frothed milk to a Cup and making a Tulip Latte Art" />
+              <figcaption>
+                14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                Ecommerce App · Cloud Storage App
+              </figcaption>
+            </figure>
+
+            <div class="porfolio-list-details">
+              <h3 class="portfolio-name">Fresh Coffee</h3>
+              <p class="portfolio-type" data-category="Design">Design</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- Footer section -->
+  <footer class="main-footer-section">
+
+    <div class="footer-container container">
+      <div class="footer-logo-wrapper">
+        <a href="/goit-markup-hw-01/" class="footer-logo">
+          <span class="footerlogo-web">WEB</span><span class="footerlogo-studio">STUDIO</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and <br />sales for your business with
+          digital <br />marketing & growth solutions.
+        </p>
+      </div>
+      <div class="footer-social-wrapper">
+        <p class="footer-social-text">Social media</p>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="https://www.instagram.com/" target="_blank" rel="noopener no-referrer">
+              <svg class="footer-social-icon">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="https://www.twitter.com/" target="_blank" rel="noopener no-referrer">
+              <svg class="footer-social-icon">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="https://www.facebook.com/" target="_blank" rel="noopener no-referrer">
+              <svg class="footer-social-icon">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener no-referrer">
+              <svg class="footer-social-icon">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-container footer-form">
+        <form name="subscribe_form" autocomplete="on" method="">
+          <label class="footer-form_label">
+            Subscribe
+            <input type="email" name="email" placeholder="E-mail" class="footer-form-input" required="">
+          </label>
+          <button type="submit" class="footer-form-button">Subscribe
+            <svg class="footer-form-svgsubscribe">
+              <use href="./images/icons.svg#submit"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-close" data-modal-close>
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+      <p class="form-header">Leave your contacts and we will call you back</p>
+      <form name="signup_form" autocomplete="on" class="form-container list">
+        <label class="form-label" for="full_name">
+          <span class="label-text">Name</span>
+          <input type="text" class="form-input" name="full_name" required>
+          <svg class="form-input-icon">
+            <use href="./images/icons.svg#person"></use>
+          </svg>
+        </label>
+        <label class="form-label" for="phone_number">
+          <span class="label-text">Phone</span>
+          <input type="tel" class="form-input" name="phone_number" required>
+          <svg class="form-input-icon">
+            <use href="./images/icons.svg#phone"></use>
+          </svg>
+        </label>
+        <label class="form-label" for="email_address">
+          <span class="label-text">Email</span>
+          <input type="mail" class="form-input" name="email_address" required>
+          <svg class="form-input-icon">
+            <use href="./images/icons.svg#email"></use>
+          </svg>
+        </label>
+        <label for="comment_textarea" class="form-label-textarea">
+          <span class="label-text">Comment</span>
+          <textarea name="comment_textarea" class="form-textarea" placeholder="Text input" required></textarea>
+        </label>
+        <label class="modal-form-agreement">
+          <input class="modal-form-checkbox visually-hidden" type="checkbox" value="agree" name="agreement" required="">
+          <svg class="modal-checkbox-icon" width="16" height="16">
+            <use href="./images/icons.svg#check-mark"></use>
+          </svg>
+          <span class="modal-form-agreement-text">
+            I accept the terms and conditions of the <a href="#" class="form-agreement-link">Privacy Policy</a>
+          </span>
+        </label>
+        <div class="form-button-container">
+          <button type="submit" class="submit-button">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  <script src="./js/modal.js"></script>
+</body>
+
+</html>
