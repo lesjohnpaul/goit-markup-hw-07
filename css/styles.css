@@ -1049,9 +1049,9 @@ figcaption {
   align-items: flex-start;
 }
 
-.footer-social-text {
+/* .footer-social-text {
   display: flex;
-}
+} */
 
 .footer-social-wrapper {
   margin-left: 120px;
@@ -1179,7 +1179,7 @@ figcaption {
 
 @media only screen and (mid-width:428px) and (max-width:767px) {
   .container {
-    width: 775px;
+    width: 428px;
     margin: 0 auto;
   }
 }
@@ -1196,6 +1196,11 @@ only screen and (max-width:427px) {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .container {
+    width: 428px;
+    margin: 0 auto;
   }
 
   .hero h1 {
@@ -1217,7 +1222,7 @@ only screen and (max-width:427px) {
     display: none;
   }
 
-  .features-section-list {
+  .features-list {
     width: 100px;
     min-height: 120px;
     gap: 72px 24px;
@@ -1227,12 +1232,84 @@ only screen and (max-width:427px) {
 
   }
 
+  .services {
+    display: none;
+  }
+
   .features-item-title {
     text-align: center;
     font-weight: 70px;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    margin-bottom: 78;
+    margin-bottom: 8px;
+  }
+
+  .team-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .team-list-item {
+    margin: 0;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 72px 16px;
+  }
+
+  .footer-container {
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo-wrapper {
+    margin: 0 auto;
+    padding-top: 0;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .footer-logo-wrapper p {
+    text-align: start;
+  }
+
+  .footer-social-wrapper {
+    margin: 0 auto;
+  }
+
+  .footer-social-text {
+    text-align: center;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-form_label {
+    margin: 0 auto;
+  }
+
+  .subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
   }
 }
