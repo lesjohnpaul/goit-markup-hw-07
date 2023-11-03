@@ -1405,6 +1405,33 @@ only screen and (max-width:427px) {
     gap: 72px 16px;
   }
 
+
+  /* PORTFOLIO */
+  .portfolio {
+    padding-top: 48px;
+  }
+
+  .filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+  }
+
+  .portfolio-list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
   .footer-container {
     display: flex;
     gap: 72px;
