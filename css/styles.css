@@ -1315,7 +1315,7 @@ figcaption {
 }
 
 /*  MEDIA QUERIES */
-@media only screen and (mid-width:428px) and (max-width:767px) {
+@media only screen and (min-width:428px) and (max-width:767px) {
   .container {
     width: 428px;
     margin: 0 auto;
@@ -1476,11 +1476,5 @@ only screen and (max-width:427px) {
     justify-content: center;
     flex-direction: column;
     gap: 16px;
-  }
-}
-
-@media only screen and (min-width:768px) {
-  .menu-toggle {
-    display: none;
   }
 }
