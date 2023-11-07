@@ -1610,15 +1610,31 @@ only screen and (max-width:427px) {
     /* margin: 0; */
   }
 
-  .customers-list {
-    /* display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 72px 16px; */
+  section {
+    padding: 96px 0;
   }
 
+  .customers-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .customers-item {
+    width: 168px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   /* PORTFOLIO */
   .portfolio {
@@ -1672,7 +1688,7 @@ only screen and (max-width:427px) {
     text-align: center;
   }
 
-  .footer-container.footer-form {
+  .footer-container .footer-form {
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -1696,9 +1712,3 @@ only screen and (max-width:427px) {
 .footer-form-button {
   /* margin: 0; */
 }
-
-/* @media only screen and (min-width:768px) {
-  .menu-toggle {
-    display: none;
-  }
-} */
