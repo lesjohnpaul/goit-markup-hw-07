@@ -361,7 +361,7 @@ main {
 
 .form-input {
   display: block;
-  width: 360px;
+  width: 100%;
   height: 40px;
   padding-top: 11px;
   padding-bottom: 11px;
@@ -384,10 +384,11 @@ main {
   line-height: 1.166;
   letter-spacing: 0.01em;
   color: var(--color-lightslate);
+  width: 100%;
 }
 
 .form-textarea {
-  width: 360px;
+  width: 100%;
   height: 120px;
   flex-shrink: 0;
   padding-top: 8px;
@@ -806,8 +807,8 @@ main {
   padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
-  min-width: 408px;
-  min-height: 584px;
+  min-width: 100%;
+  min-height: 100%;
   background-color: var(--color-dairy, #fcfcfc);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
@@ -1258,6 +1259,10 @@ figcaption {
   color: var(--color-navyblue);
 }
 
+.mobile-menu-link.active {
+  color: var(--color-iris);
+}
+
 .mobile-menu-link:hover,
 .mobile-menu-link:focus {
   color: var(--color-iris);
@@ -1272,14 +1277,29 @@ figcaption {
 }
 
 .mobile-contacts-link {
-  color: var(--color-navyblue);
+  color: var(--color-iris);
   font-family: 'Roboto', 'sans-serif';
-  font-size: 20px;
+  font-size: 36px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 40px;
+  /* 111.111% */
   letter-spacing: 0.72px;
-  ;
+  text-transform: capitalize;
 }
+
+.mobile-mail-link {
+  color: var(--color-slate);
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+  letter-spacing: 0.4px;
+}
+
 
 .mobile-contacts-link:hover,
 .mobile-contacts-link:focus {
@@ -1510,7 +1530,7 @@ only screen and (max-width:320px) {
 @media only screen and (min-width: 768px) and (max-width:1157px) {
 
   .header {
-    padding: 18px 0px;
+    padding: 12px 0px;
   }
 
   .main-header-nav {
