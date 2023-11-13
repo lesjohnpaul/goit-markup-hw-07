@@ -1319,15 +1319,15 @@ figcaption {
 }
 
 /*  MEDIA QUERIES */
-@media only screen and (min-width:428px) and (max-width:767px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
   .container {
-    width: 428px;
+    width: 100%;
     margin: 0 auto;
   }
 }
 
-@media only screen and (min-width: 428px) and (max-width: 767px),
-only screen and (max-width:427px) {
+@media only screen and (min-width: 320px) and (max-width: 767px),
+only screen and (max-width:320px) {
 
   .main-header-menu,
   .main-header-address {
@@ -1341,7 +1341,7 @@ only screen and (max-width:427px) {
   }
 
   .container {
-    width: 428px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -1468,6 +1468,7 @@ only screen and (max-width:427px) {
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+    width: 100%;
   }
 
   .footer-form_label {
@@ -1544,7 +1545,7 @@ only screen and (max-width:427px) {
   }
 
   .container {
-    width: 768px;
+    width: 100%;
     margin: 0 auto;
   }
 
